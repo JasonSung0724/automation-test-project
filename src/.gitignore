@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+test-venv/
+
+# 環境變數（含敏感 token/key）
+.env
+
+# 測試報告
+allure-results/
+allure-report/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+
+# Logs
+logs/
